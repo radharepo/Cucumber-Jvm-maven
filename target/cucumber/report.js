@@ -12,6 +12,10 @@ formatter.feature({
   "keyword": "Feature",
   "line": 2
 });
+formatter.before({
+  "duration": 5526486967,
+  "status": "passed"
+});
 formatter.scenario({
   "id": "s195-login;verify-the-s195-login-process",
   "description": "",
@@ -36,23 +40,28 @@ formatter.step({
   "line": 7
 });
 formatter.match({
-  "location": "LoginSteps.I_am_on_home_page()"
+  "location": "LoginPage_Steps.I_am_on_home_page()"
 });
 formatter.result({
-  "duration": 162047193,
-  "status": "pending",
-  "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.cucumber.test.LoginSteps.I_am_on_home_page(LoginSteps.java:11)\n\tat ✽.When I am on home page(Login.feature:5)\n"
+  "duration": 6260028588,
+  "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.I_click_on_Login_button()"
+  "location": "LoginPage_Steps.I_click_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 273205927,
+  "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.I_Log_into_the_site()"
+  "location": "LoginPage_Steps.I_Log_into_the_site()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6619032197,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 293900280,
+  "status": "passed"
 });
 });

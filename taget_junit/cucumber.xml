@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.162047">
-<testcase classname="s195 Login" name="Verify the s195 login process" time="0.162047">
-<skipped><![CDATA[When I am on home page......................................................pending
-Then I click on Login button................................................skipped
-And I Log into the site.....................................................skipped
-]]></skipped>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.972654">
+<testcase classname="s195 Login" name="Verify the s195 login process" time="18.972654">
+<system-out><![CDATA[When I am on home page......................................................passed
+Then I click on Login button................................................passed
+And I Log into the site.....................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

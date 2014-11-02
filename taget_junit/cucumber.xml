@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.979028">
-<testcase classname="s195 Login" name="Verify the s195 login process" time="17.979028">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.000806">
+<testcase classname="s195 Login" name="Verify the s195 login process" time="20.000806">
 <system-out><![CDATA[When I am on home page......................................................passed
 Then I click on Login button................................................passed
 And I Log into the site.....................................................passed

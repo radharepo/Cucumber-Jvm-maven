@@ -13,8 +13,7 @@ import cucumber.api.junit.Cucumber;
 		strict = true, 
 		features = "src/test/resource", 
 		glue = "com.cucumber.test", 
-		tags = {
-		"~@wip","@login"}, 
+		tags = {"~@wip, @Login"}, 
 		monochrome = true, 
 		format = {
 				"pretty",

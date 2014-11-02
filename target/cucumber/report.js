@@ -13,7 +13,7 @@ formatter.feature({
   "line": 2
 });
 formatter.before({
-  "duration": 5479221123,
+  "duration": 5678631110,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "LoginPage_Steps.I_am_on_home_page()"
 });
 formatter.result({
-  "duration": 10174701530,
+  "duration": 6069746760,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage_Steps.I_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 279773326,
+  "duration": 232775499,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage_Steps.I_Log_into_the_site()"
 });
 formatter.result({
-  "duration": 5494962195,
+  "duration": 5704734481,
   "status": "passed"
 });
 formatter.after({
-  "duration": 300068999,
+  "duration": 293139668,
   "status": "passed"
 });
 });

@@ -23,5 +23,5 @@ import cucumber.api.junit.Cucumber;
 				"junit:taget_junit/cucumber.xml"
 				}
 		)
-public class CuckerRunner {
+public class RunnerTest {
 }

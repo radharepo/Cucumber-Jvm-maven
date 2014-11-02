@@ -33,7 +33,7 @@ public class LoginPage_Steps {
 	public void I_Log_into_the_site() throws Throwable {
 	    LoginPage page = new LoginPage(driver);
 	    page.fillFormwithData();
-	    page.submitform();
+	    page.clickOnLogin();
 	}
 	
 	@Before

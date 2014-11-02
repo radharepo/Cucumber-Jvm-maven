@@ -16,7 +16,7 @@
         "after": [
           {
             "result": {
-              "duration": 300068999,
+              "duration": 293139668,
               "status": "passed"
             },
             "match": {
@@ -28,7 +28,7 @@
         "before": [
           {
             "result": {
-              "duration": 5479221123,
+              "duration": 5678631110,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10174701530,
+              "duration": 6069746760,
               "status": "passed"
             },
             "name": "I am on home page",
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 279773326,
+              "duration": 232775499,
               "status": "passed"
             },
             "name": "I click on Login button",
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 5494962195,
+              "duration": 5704734481,
               "status": "passed"
             },
             "name": "I Log into the site",

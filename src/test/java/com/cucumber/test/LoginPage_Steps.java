@@ -2,17 +2,19 @@ package com.cucumber.test;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.After;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class LoginPage_Steps extends AbstractPageStepDefinition {
+public class LoginPage_Steps {
 	
-	WebDriver driver = getDriver();
+	WebDriver driver;
 	
 	@When("^I am on home page$")
 	public void I_am_on_home_page() throws Throwable {
@@ -24,7 +26,6 @@ public class LoginPage_Steps extends AbstractPageStepDefinition {
 	@Then("^I click on Login button$")
 	public void I_click_on_Login_button() throws Throwable {
 		HomePage page = new HomePage(driver);
-		Thread.sleep(1000);
 		page.clickOnLogin();
 	}
 
@@ -32,15 +33,18 @@ public class LoginPage_Steps extends AbstractPageStepDefinition {
 	public void I_Log_into_the_site() throws Throwable {
 	    LoginPage page = new LoginPage(driver);
 	    page.fillFormwithData();
-	    Thread.sleep(2000);
 	    page.clickOnLogin();
 	}
 	
-		
+	@Before
+	public void startUp(){
+		driver = new FirefoxDriver();
+	}
+	
+	
 	@After
 	public void tearDown() {
 		driver.quit(); 
 	}
-	
 	
 }

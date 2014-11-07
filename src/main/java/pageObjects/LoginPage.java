@@ -16,8 +16,8 @@ public class LoginPage extends AbstractPage {
 		return new LoginPage(driver);
 	}
 	
-	public WallPage clickOnLogin() {
+	public MyfeedPage clickOnLogin() {
 		driver.findElement(By.className("btn-login")).click();
-		return new WallPage(driver);
+		return new MyfeedPage(driver);
 	}
 }

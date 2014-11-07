@@ -9,7 +9,8 @@ public class AbstractPageStepDefinition {
 	
 	protected WebDriver getDriver() {
 		if(driver == null) {
-			driver = new FirefoxDriver();
+				driver = new FirefoxDriver(); 
+			  /* driver = new ChromeDriver(); */
 		}
 		return driver;
 	}

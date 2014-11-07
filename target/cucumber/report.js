@@ -39,25 +39,25 @@ formatter.match({
   "location": "LoginPage_Steps.I_am_on_home_page()"
 });
 formatter.result({
-  "duration": 13179808634,
+  "duration": 17546529997,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage_Steps.I_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 311901024,
+  "duration": 297303374,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage_Steps.I_Log_into_the_site()"
 });
 formatter.result({
-  "duration": 6164719270,
+  "duration": 6540270788,
   "status": "passed"
 });
 formatter.after({
-  "duration": 344377231,
+  "duration": 391263973,
   "status": "passed"
 });
 });

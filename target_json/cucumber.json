@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 344377231,
+              "duration": 391263973,
               "status": "passed"
             },
             "match": {
@@ -32,7 +32,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13179808634,
+              "duration": 17546529997,
               "status": "passed"
             },
             "name": "I am on home page",
@@ -44,7 +44,7 @@
           },
           {
             "result": {
-              "duration": 311901024,
+              "duration": 297303374,
               "status": "passed"
             },
             "name": "I click on Login button",
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 6164719270,
+              "duration": 6540270788,
               "status": "passed"
             },
             "name": "I Log into the site",

@@ -13,14 +13,14 @@ import cucumber.api.junit.Cucumber;
 		strict = true, 
 		features = "src/test/resource", 
 		glue = "com.cucumber.test", 
-		tags = {"~@wip, @Login"}, 
-		monochrome = true, 
-		format = {
+		tags = {"~@wip, ~@Login, ~@Filter, @event_creation"}, 
+		monochrome = true )
+		/* format = {
 				"pretty",
 				"html:target/cucumber",
 				"json:target_json/cucumber.json",
 				"junit:taget_junit/cucumber.xml"
 				}
-		)
+		) */
 public class RunnerTest {
 }

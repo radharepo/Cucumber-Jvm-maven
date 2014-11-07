@@ -1,0 +1,5 @@
+#surefire
+#Mon Nov 03 10:36:32 IST 2014
+user.dir=/home/rk/workspace/test
+localRepository=/home/rk/.m2/repository
+basedir=/home/rk/workspace/test

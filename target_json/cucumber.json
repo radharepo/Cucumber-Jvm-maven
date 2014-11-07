@@ -1,22 +1,16 @@
 [
   {
     "id": "s195-login",
-    "tags": [
-      {
-        "name": "@login",
-        "line": 1
-      }
-    ],
     "description": "",
     "name": "s195 Login",
     "keyword": "Feature",
-    "line": 2,
+    "line": 1,
     "elements": [
       {
         "after": [
           {
             "result": {
-              "duration": 293139668,
+              "duration": 391263973,
               "status": "passed"
             },
             "match": {
@@ -25,15 +19,10 @@
           }
         ],
         "id": "s195-login;verify-the-s195-login-process",
-        "before": [
+        "tags": [
           {
-            "result": {
-              "duration": 5678631110,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginPage_Steps.startUp()"
-            }
+            "name": "@Login",
+            "line": 3
           }
         ],
         "description": "",
@@ -43,7 +32,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6069746760,
+              "duration": 17546529997,
               "status": "passed"
             },
             "name": "I am on home page",
@@ -55,7 +44,7 @@
           },
           {
             "result": {
-              "duration": 232775499,
+              "duration": 297303374,
               "status": "passed"
             },
             "name": "I click on Login button",
@@ -67,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 5704734481,
+              "duration": 6540270788,
               "status": "passed"
             },
             "name": "I Log into the site",

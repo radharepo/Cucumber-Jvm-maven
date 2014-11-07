@@ -1,23 +1,19 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
 formatter.feature({
   "id": "s195-login",
-  "tags": [
-    {
-      "name": "@login",
-      "line": 1
-    }
-  ],
   "description": "",
   "name": "s195 Login",
   "keyword": "Feature",
-  "line": 2
-});
-formatter.before({
-  "duration": 5678631110,
-  "status": "passed"
+  "line": 1
 });
 formatter.scenario({
   "id": "s195-login;verify-the-s195-login-process",
+  "tags": [
+    {
+      "name": "@Login",
+      "line": 3
+    }
+  ],
   "description": "",
   "name": "Verify the s195 login process",
   "keyword": "Scenario",
@@ -43,25 +39,25 @@ formatter.match({
   "location": "LoginPage_Steps.I_am_on_home_page()"
 });
 formatter.result({
-  "duration": 6069746760,
+  "duration": 17546529997,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage_Steps.I_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 232775499,
+  "duration": 297303374,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage_Steps.I_Log_into_the_site()"
 });
 formatter.result({
-  "duration": 5704734481,
+  "duration": 6540270788,
   "status": "passed"
 });
 formatter.after({
-  "duration": 293139668,
+  "duration": 391263973,
   "status": "passed"
 });
 });
